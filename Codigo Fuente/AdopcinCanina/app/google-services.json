@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "657521088447",
+    "firebase_url": "https://adopcioncanina-66489-default-rtdb.firebaseio.com",
+    "project_id": "adopcioncanina-66489",
+    "storage_bucket": "adopcioncanina-66489.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:657521088447:android:83858a6f12d2d3b8a9f30a",
+        "android_client_info": {
+          "package_name": "com.example.adopcincanina"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "657521088447-db3tqgou68si49olo6ms2o1i6vnpjo9c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4DtJEtdkq4AYXQNWDGODLHzzasnHG6Pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "657521088447-db3tqgou68si49olo6ms2o1i6vnpjo9c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
