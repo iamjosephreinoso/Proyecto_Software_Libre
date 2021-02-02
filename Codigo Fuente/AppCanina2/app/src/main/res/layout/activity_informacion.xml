@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fc50f7b64fbc09f257b92637ebcc7756"
+    tools:context=".Informacion">
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="47dp"
+        android:background="@color/white"
+        android:text="Acerca de Nosotros"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textDirection="locale"
+        android:textIsSelectable="true"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="12dp"
+        android:background="@color/white"
+        android:text="La Aplicación de Adopción tiene como objetivo permitir que los administradores puedan ingresar información sobre un canino que se encuentre en adopción, además sirve para que los usuarios puedan ingresar al catálogo y verifique la información de un canino que desee adoptar sabien que en la aplicación exitira gran variedad de caninos disponibles para la adopción."
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Menu2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_Menu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="58dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:srcCompat="@android:drawable/ic_dialog_dialer" />
+</androidx.constraintlayout.widget.ConstraintLayout>
